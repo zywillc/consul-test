@@ -1,7 +1,3 @@
-etl-consumer-1.datawarehouse-staging.10gen.cc:
-  dw-platform: 0.5.10
-  dw-data-processing: 0.1.19
-
 s3-autoloader-1.datawarehouse.10gen.cc:
   dw-platform: 0.5.10
 
