@@ -1,0 +1,21 @@
+image: dw-platform
+tag: 0.5.7
+
+globalEnv: {}
+name: hello-world
+schedule: "* * * * *"
+command: "/bin/sh -c date"
+env:
+  VAR_1: value_1
+  VAR_2: value_2
+  DW_PLATFORM_WHEEL_VERSION: 0.5.10
+
+resources:
+      # guaranteed amount of resources
+      requests:
+        cpu: 100m
+        memory: 1Gi
+      # maximum allowed resources
+      limits:
+        cpu: 200m
+        memory: 2Gi
